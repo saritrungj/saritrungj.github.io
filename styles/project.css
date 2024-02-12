@@ -1,0 +1,29 @@
+.project {
+  padding: 1rem 1rem;
+  background-color: black;
+  color: white;
+}
+
+.project-1,
+.project-2,
+.project-3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.project-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.project-detail {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.project-thumbnail img {
+  width: 200px;
+  border-radius: 7px;
+  margin-right: 15px;
+}

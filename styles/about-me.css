@@ -1,0 +1,36 @@
+.main-content-portfolio {
+  background-color: rgb(250, 205, 90);
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.about-me-profile-picture {
+  width: 250px;
+  height: 200px;
+  margin-right: 15px;
+  border: 1px solid red;
+    & img {
+    width: 100%;
+    border-radius: 6px;
+    
+  }
+}
+.about-me-info {
+  border: 1px solid red;
+  width: 500px;
+}
+
+.about-me-title {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.about-me-detail {
+  font-size: 15px;
+  font-weight: 400;
+}
+

@@ -1,0 +1,77 @@
+.header-portfolio {
+  background-color: black;
+  height: 350px;
+  color: white;
+  padding: 1rem 1rem;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+
+  & li {
+    margin-right: 20px;
+    list-style-type: none;
+  }
+  & a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.nav-info {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  border: 1px solid red;
+}
+
+.nav-profile-picture img {
+  width: 250px;
+  border: 3px solid rgb(255, 205, 90);
+  border-radius: 125px;
+  margin-right: 3rem;
+}
+
+.nav-button {
+  width: 400px;
+  height: 200px;
+  padding: 0 1rem;
+}
+
+.text-info {
+  margin-top: 2rem;
+}
+
+.button-info {
+  display: flex;
+  justify-items: center;
+  margin-top: 1rem;
+}
+
+.button-info button {
+  font-size: 10px;
+  background-color: rgb(255, 205, 90);
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  height: 28px;
+  cursor: pointer;
+}
+
+.button-info input {
+  font-size: 10px;
+  height: 28px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
+  margin-right: 6px;
+}
+

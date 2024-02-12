@@ -1,0 +1,13 @@
+.footer-portfolio {
+  height: 50px;
+  background-color: rgb(255, 205, 90);
+  color: black;
+}
+
+.footer-copy-right {
+  display: flex;
+  justify-content: center;
+  & p {
+    margin-top: 1rem;
+  }
+}
