@@ -1,21 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-:root {
-  --primary-color: #ffc655;
-  --primary-color-dark: #fcb323;
-  --secondary-color: #ffdfd2;
-  --text-dark: #4f38ff;
-  --text-light: #ccc6ff;
-  --text-extra-light: #f1efff;
-  --max-width: 1200px;
-  --height: 100vh;
-}
 
 * {
   font-family: "Poppins", sans-serif, Arial;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  --primary-color: #FFD98C;
+  --primary-color-dark: #fcb323;
+  --secondary-color: #FFFAEF;
+  --text-dark: #2711D1;
+  --text-light: #6756FC;
+  --text-extra-light: #f1efff;
+  --max-width: 1200px;
+  --height: 100vh;
 }
 
 .text{
@@ -49,3 +52,85 @@
   }
 }
 
+.section-container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 5rem 1rem;
+}
+
+nav {
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: var(--max-width);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.nav-logo span {
+  color: var(--text-light);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links li {
+  margin-right: 10px;
+}
+
+.link a {
+  color: var(--text-dark);
+}
+
+header .header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: var(--max-width);
+}
+
+.header-image img{
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 4rem;
+}
+
+.tech-stacks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tech-stacks li {
+  color: var(--text-dark);
+}
+
+.action-button {
+  margin-top: 10px;
+  margin-right: 10px;
+  background: var(--primary-color-dark);
+  border: none;
+  width: 7rem;
+  padding: 5px;
+  border-radius: 7px;
+}
